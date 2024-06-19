@@ -84,6 +84,18 @@ body {
    
 }
 
+#animacion-imagen:hover{
+    animation: agrandar 10s infinite;
+}
+
+@keyframes agrandar {
+
+    50%{
+        transform: scale(1);
+    }
+    
+}
+
 .textoimagenes{
     display: flex;
     flex-direction: column;
