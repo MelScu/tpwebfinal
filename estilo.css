@@ -69,35 +69,27 @@ body {
 
 #contenedorproyectosterminados{
     display: grid;
-    grid-template-columns: 3, 1fr;
-    grid-template-rows: 3, auto;
-    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(2, auto);
     margin-bottom: 300px;
 }
-#textoimagen1{
-    display: grid;
-    grid-column: 1;
-    grid-row: 2;
 
-}
-#textoimagen2{
-    display: grid;
-    grid-column: 2;
-    grid-row: 2;
-}
-#textoimagen3{
-    display: grid;
-    grid-column: 3;
-    grid-row: 2;
+.tituloproyectos{
+    background-color: #6a8267;
+    grid-column: 1/4;
+    grid-row: 1;
+    width: auto;
 }
 
-
-.tamañoimg{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-
-   
+.textoimagen{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr;
+    gap: 100px;
+}
+.tamañoimagen{
+    display: grid;
+    justify-items: center;
 }
 
 #animacion-imagen:hover{
@@ -112,20 +104,6 @@ body {
     
 }
 
-.textoimagenes{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-
-}
-
-.tituloproyectos{
-    background-color: #6a8267;
-    grid-column: 1/4;
-    grid-row: 1;
-    width: auto;
-}
 
 
 footer{
@@ -140,31 +118,30 @@ footer{
 #titulofooter{
     display: grid;
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
 }
 
 #instagram{
     display: grid;
-    grid-column: 1;
+    grid-column: 2;
     grid-row: 2;
     width: 5px;
     text-align: center;
-    margin-left: 50px;
     margin-top: 10px;
 }
 
 #whatsapp{
     display: grid;
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 3;
     text-align: center;
-    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 #mapagoogle{
     display: grid;
     grid-column: 3/4;
-    grid-row: 2;
+    grid-row: 3;
     text-align: center;
     margin-top: 0%;
 

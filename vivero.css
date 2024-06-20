@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(169, 201, 169);
+    display: grid;
+    color: #e7e0c4;
+    text-align: center;
+    font-style: initial;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0%;
+}
+
+header{
+    background-color: #6a8267;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3;
+    bottom: 10px;
+    gap: 10px 5px;
+    padding: 10px;
+    align-items: stretch;
+}
+#imagenvivero3{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1;
+}
+#imagenvivero4{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1;
+}
+.imagenesvivero{
+    width: 20px;
+    height: 20px;
+}
+footer{
+    background-color: #6a8267;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 300px;
+    
+
+    
+}
