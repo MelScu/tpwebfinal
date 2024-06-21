@@ -44,105 +44,118 @@ body {
 
 }
 
-#quehacemos1 {
-    grid-row: 4;
-    grid-column: 1/4;
-    text-align: center;
-    color: black;
-    font-style: oblique;
-    font-weight: lighter;
-    height: 30%;
-    margin-top: 100px;
-
-}
-
-#quehacemos2{
+#quehacemos2 {
     grid-row: 5;
     grid-column: 1/4;
-    text-align: center;
+    justify-self: stretch;
     color: black;
     font-style: oblique;
     font-weight: lighter;
-    margin-bottom: 100px;
+    margin: 50px;
 
 }
 
-#contenedorproyectosterminados{
+#contenedorproyectosterminados {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: minmax(2, auto);
-    margin-bottom: 300px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(200px, auto);
+    bottom: 10px;
+    gap: 10px;
+    bottom: 100px;
+    padding-bottom: 30px;
+    margin-bottom: 200px;
+    object-fit: cover;
+    justify-items: stretch;
+    
+}
+#imagen1{
+    display: grid;
+    grid-column: 1/2;
+    object-fit: contain;
+
+}
+#imagen2{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1;
+    
+}
+#imagen3{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
 }
 
-.tituloproyectos{
+#imagen4{
+    display: grid;
+    grid-column: 3;
+    grid-row: 3;
+}
+.textoimagen{
+    display: flex;
+    text-align: initial;
+}
+.tituloproyectos {
     background-color: #6a8267;
     grid-column: 1/4;
     grid-row: 1;
     width: auto;
 }
 
-.textoimagen{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr ;
-    grid-template-columns: 1fr;
-    gap: 100px;
-}
-.tamañoimagen{
-    display: grid;
-    justify-items: center;
-}
 
-#animacion-imagen:hover{
+#animacion-imagen:hover {
     animation: agrandar 10s infinite;
 }
 
 @keyframes agrandar {
 
-    50%{
+    50% {
         transform: scale(1);
     }
-    
+
 }
 
 
 
-footer{
+footer {
     background-color: #6a8267;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 4, auto;
+    grid-template-rows: 30px, auto;
     top: 1000px;
     color: #e7e0c4;
+    justify-items: start;
 }
 
-#titulofooter{
+#titulofooter {
     display: grid;
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 2;
+    
 }
 
-#instagram{
+#instagram {
     display: grid;
     grid-column: 2;
     grid-row: 2;
     width: 5px;
-    text-align: center;
     margin-top: 10px;
 }
 
-#whatsapp{
+#whatsapp {
     display: grid;
-    grid-column: 2;
-    grid-row: 3;
-    text-align: center;
-    margin-bottom: 10px;
+    grid-column: 3;
+    grid-row: 2;
+    width: 5px;
+    margin-top: 10px;
+    
 }
 
-#mapagoogle{
+#mapagoogle {
     display: grid;
     grid-column: 3/4;
     grid-row: 3;
-    text-align: center;
-    margin-top: 0%;
+    justify-content: center;
+    
 
 }
