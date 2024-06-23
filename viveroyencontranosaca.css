@@ -43,3 +43,31 @@ footer{
     
 }
 
+#titulopagprov{
+    background-color: #6a8267;
+    text-align: center;
+    margin: 0%;
+}
+
+svg{
+    display: grid;
+    align-items: center;
+    height:80vw;
+    width: 100%;
+}
+
+path{
+    fill: #6a8267;
+    stroke: #e7e0c4;
+    stroke-width: 1;
+}
+path:hover{
+    fill: #455443;
+    stroke: #c4bea4;
+    stroke-width: 2;
+    animation: backwards;
+}
+#mapagoogle{
+    list-style: none;
+}
+

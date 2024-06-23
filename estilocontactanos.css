@@ -21,6 +21,8 @@ body {
 #paginacontacto {
     display: grid;
     text-align: center;
+    color: #536950;
+    font-weight: bolder;
 }
 
 .info {

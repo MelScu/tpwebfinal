@@ -22,7 +22,7 @@ body {
     grid-row: 3;
     grid-column: 1;
     text-align: center;
-    height: 70%;
+    height: 30px;
 
 }
 
@@ -31,7 +31,7 @@ body {
     grid-column: 2;
     grid-row: 3;
     text-align: center;
-    height: 70%;
+    height: 30px;
 
 }
 
@@ -40,7 +40,7 @@ body {
     grid-row: 3;
     grid-column: 3/4;
     text-align: center;
-    height: 70%;
+    height: 30px;
 
 }
 
@@ -57,65 +57,81 @@ body {
 
 #contenedorproyectosterminados {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr
     grid-template-rows: minmax(200px, auto);
-    bottom: 10px;
+    text-align: start;
     gap: 10px;
-    bottom: 100px;
-    padding-bottom: 30px;
-    margin-bottom: 200px;
-    object-fit: cover;
-    justify-items: stretch;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 500px;
+    align-items: stretch;
+    justify-items: center;
+    background-position: center;
     
 }
+
 #imagen1{
     display: grid;
     grid-column: 1/2;
-    object-fit: contain;
+}
 
-}
-#imagen2{
+#textoimg1{
     display: grid;
-    grid-column: 2/3;
+    grid-column: 1;
     grid-row: 1;
-    
+    text-align: center;
+    background-color: #6a8267;
 }
-#imagen3{
+
+#imagen2{
     display: grid;
     grid-column: 1;
     grid-row: 2;
+   
+    
 }
 
-#imagen4{
+#textoimg2{
     display: grid;
-    grid-column: 3;
+    text-align: center;
+    grid-row: 1;
+    background-color: #6a8267;
+    
+}
+
+#imagen3{
+    display: grid;
+    grid-column: 1;
     grid-row: 3;
+    
+    
 }
-.textoimagen{
-    display: flex;
-    text-align: initial;
+
+#textoimg3{
+    display: grid;
+    grid-row: 1;
+    background-color: #6a8267;
+    text-align: center;
+    justify-items: stretch;
 }
+
+
 .tituloproyectos {
     background-color: #6a8267;
     grid-column: 1/4;
     grid-row: 1;
     width: auto;
+    height: 50px;
+    text-align: center;
 }
 
-
-#animacion-imagen:hover {
-    animation: agrandar 10s infinite;
+#tablahorarios{
+    background-color: #6a8267;
+    display: grid;
+    justify-content: center;
+    
+ 
 }
-
-@keyframes agrandar {
-
-    50% {
-        transform: scale(1);
-    }
-
-}
-
-
 
 footer {
     background-color: #6a8267;
@@ -151,11 +167,3 @@ footer {
     
 }
 
-#mapagoogle {
-    display: grid;
-    grid-column: 3/4;
-    grid-row: 3;
-    justify-content: center;
-    
-
-}
