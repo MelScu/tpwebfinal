@@ -15,32 +15,46 @@ body {
     bottom: 30px;
 }
 
+#contenedormenu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    margin-top: 30px;
+}
 
-
-.quienessomos {
+#quienessomos {
     background-color: #6a8267;
     grid-row: 3;
     grid-column: 1;
-    text-align: center;
-    height: 30px;
+    text-align: center ;
+    height: 50px;
+    color: #e7e0c4;
+    text-decoration: none;
+    font-size: x-large;
 
 }
 
-.nuestrovivero {
+#nuestrovivero {
     background-color: #6a8267;
     grid-column: 2;
     grid-row: 3;
     text-align: center;
-    height: 30px;
+    height: 50px;
+    color: #e7e0c4;
+    text-decoration: none;
+    font-size: x-large;
 
 }
 
-.cotización {
+#cotizacion {
     background-color: #6a8267;
     grid-row: 3;
     grid-column: 3/4;
     text-align: center;
-    height: 30px;
+    height: 50px;
+    color: #e7e0c4;
+    text-decoration: none;
+    font-size: x-large;
 
 }
 
@@ -50,14 +64,15 @@ body {
     justify-self: stretch;
     color: black;
     font-style: oblique;
-    font-weight: lighter;
+    font-weight: bold;
     margin: 50px;
+    
 
 }
 
 #contenedorproyectosterminados {
     display: grid;
-    grid-template-columns: 1fr
+    grid-template-columns: 1fr;
     grid-template-rows: minmax(200px, auto);
     text-align: start;
     gap: 10px;
@@ -123,14 +138,16 @@ body {
     width: auto;
     height: 50px;
     text-align: center;
+    font-size: x-large;
+    font-weight: lighter;
 }
 
 #tablahorarios{
     background-color: #6a8267;
     display: grid;
     justify-content: center;
+    border: solid #e7e0c4;
     
- 
 }
 
 footer {
@@ -156,6 +173,7 @@ footer {
     grid-row: 2;
     width: 5px;
     margin-top: 10px;
+    color: #e7e0c4;
 }
 
 #whatsapp {
@@ -165,5 +183,9 @@ footer {
     width: 5px;
     margin-top: 10px;
     
+}
+.igwapp{
+    color: #e7e0c4;
+    text-decoration: none;
 }
 

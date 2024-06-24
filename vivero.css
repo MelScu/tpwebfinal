@@ -8,9 +8,6 @@ body {
     margin: 0%;
 }
 
-header{
-    background-color: #6a8267;
-}
 
 main{
     display: grid;
@@ -21,9 +18,18 @@ main{
     bottom: 100px;
     padding: 10px;
     align-items: stretch;
-    margin: 10px;
+    margin-bottom: 30px;
     background-color: #6a8267;
 
+}
+
+#titulofotosvivero{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1/2;
+    background-color: #6a8267;
+    margin: 30px 0;
+    
 }
 
 #visitamapa{
@@ -42,32 +48,3 @@ footer{
     margin-top: auto;
     
 }
-
-#titulopagprov{
-    background-color: #6a8267;
-    text-align: center;
-    margin: 0%;
-}
-
-svg{
-    display: grid;
-    align-items: center;
-    height:80vw;
-    width: 100%;
-}
-
-path{
-    fill: #6a8267;
-    stroke: #e7e0c4;
-    stroke-width: 1;
-}
-path:hover{
-    fill: #455443;
-    stroke: #c4bea4;
-    stroke-width: 2;
-    animation: backwards;
-}
-#mapagoogle{
-    list-style: none;
-}
-

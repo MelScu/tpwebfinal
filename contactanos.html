@@ -4,30 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="estilocontactanos.css">
+    <title>Entre flores y arbustos Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
 </head>
 
 <body>
-    <h1 id="paginacontacto">Contacto</h1>
-    <form id="formulario-contacto" action="./solicitudenviada.html">
-        <div id="info-usuario">
-            <div class="info" id="info-nombre">
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre-usuario" id="nombre" required>
-            </div>
-            <div class="info" id="info-email">
-                <label for="email">Email:</label>
-                <input type="email" name="email-usuario" id="email" required>
-            </div>
-            <div class="info" id="info-mensaje">
-                <label for="texto">Mensaje:</label>
-                <textarea name="texto-usuario" id="texto" rows="16" cols="10" required></textarea>
-            </div>
-            <input onclick="guardarInfo()" id="enviar-form" type="submit" value="Enviar">
+    <header>
+        <a href="index.html"><img id="titulo-principal" src="imagen-titulo-pagina-principal.png" alt="Entre flores y arbustos" width="100%"></a>
+        <div id="paginacontacto"><h1 >Contacto</h1></div>
+    </header>
 
-        </div>
-    </form>
+    <main>
+
+        <form id="formulario-contacto"  action="./solicitud_enviada.html">
+            <div id="info-usuario">
+                <div class="info" id="info-nombre">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre-usuario" id="nombre" required>
+                </div>
+                <div class="info" id="info-email">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email-usuario" id="email" required>
+                </div>
+                <div class="info" id="info-mensaje">
+                    <label for="texto">Mensaje:</label>
+                    <textarea name="texto-usuario" id="texto" rows="16" cols="10" required></textarea>
+                </div>
+                <input onclick="guardarInfo()" id="enviar-form" type="submit" value="Enviar">
+
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p id="titulofooter">Podes encontrarnos en:</p>
+
+        <li id="instagram" > <a class="igwapp" href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+
+        <li id="whatsapp" ><a class="igwapp" href="https://www.whatsapp.com/" target="_blank">Whatsapp</a></li>
+
+    </footer>
 
 </body>
 

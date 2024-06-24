@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(169, 201, 169);
+    margin: 0;
+    text-align: center;
+
+}
+
+#titulopagprov{
+    background-color: #6a8267;
+    color: #e7e0c4;
+    text-align: center;
+    margin: 0%;
+    font-weight: lighter;
+}
+
+#svg{
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    height:60%;
+    width: 100%;
+    
+}
+
+path{
+    fill: #6a8267;
+    stroke: #e7e0c4;
+    stroke-width: 1;
+    animation: animacion 5s infinite;
+    
+}
+path:hover{
+    fill: #455443;
+    stroke: #c4bea4;
+    stroke-width: 2;
+    
+
+}
+
+@keyframes animacion {
+    50%{
+        transform: scale(222px);
+    }
+    
+}
+
+footer{
+    background-color: #6a8267;
+    color: #e7e0c4;
+    display: grid;
+    
+
+}
+
+li{
+    list-style: none;
+    display: grid;
+    justify-content: center;
+}

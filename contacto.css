@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(169, 201, 169);
+    color: #e7e0c4;
+    display: grid;
+    gap: 30px;
+    margin: 0%;
+
+}
+#tituloprincipal{
+    width: 100%;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+}
+
+#formulario-contacto {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #6a8267;
+    color: #e7e0c4;
+    border: 1px solid #e7e0c4;
+    width: 450px;
+    height: 433px;
+    margin-bottom: 50px;
+
+}
+
+#paginacontacto {
+    display: grid;
+    text-align: center;
+    background-color: #6a8267;
+    color: #e7e0c4;
+    width: 100%;
+}
+
+.info {
+    display: grid;
+    justify-content: left;
+}
+
+#texto {
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 300px;
+    max-height: 300px;
+
+}
+
+#nombre {
+    width: 400px;
+}
+
+#email {
+    width: 400px;
+}
+
+#enviar-form {
+    margin-left: 353px;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #6a8267;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: minmax(30px, auto);
+    color: #e7e0c4;
+    justify-items: center;
+    width: 100%;
+
+}
+
+#titulofooter {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    
+    
+}
+
+#instagram {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    width: 5px;
+    margin-top: 10px;
+
+}
+
+#whatsapp {
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    width: 5px;
+    margin-top: 10px;
+    
+}
+.igwapp{
+    color: #e7e0c4;
+    text-decoration: none;
+}
