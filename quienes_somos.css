@@ -22,6 +22,7 @@ main{
 }
 .textoprincipal{
     text-align: center;
+    font-weight: bold;
 }
 
 footer{
@@ -35,6 +36,10 @@ footer{
 .contactoredes{
     text-align: justify;
     list-style: none;
+}
+.colorletrascontactoredes{
+    color: #e7e0c4;
+
 }
 
 

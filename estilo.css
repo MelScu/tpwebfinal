@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(169, 201, 169);
+    background-color: #a9c9a9;
     display: grid;
     color: #e7e0c4;
     text-align: center;
@@ -7,15 +7,13 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0%;
 
-
-
 }
 
 #titulo-principal {
     bottom: 30px;
 }
 
-#contenedormenu{
+#contenedormenu {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -26,7 +24,7 @@ body {
     background-color: #6a8267;
     grid-row: 3;
     grid-column: 1;
-    text-align: center ;
+    text-align: center;
     height: 50px;
     color: #e7e0c4;
     text-decoration: none;
@@ -66,70 +64,7 @@ body {
     font-style: oblique;
     font-weight: bold;
     margin: 50px;
-    
-
 }
-
-#contenedorproyectosterminados {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: minmax(200px, auto);
-    text-align: start;
-    gap: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 500px;
-    align-items: stretch;
-    justify-items: center;
-    background-position: center;
-    
-}
-
-#imagen1{
-    display: grid;
-    grid-column: 1/2;
-}
-
-#textoimg1{
-    display: grid;
-    grid-column: 1;
-    grid-row: 1;
-    text-align: center;
-    background-color: #6a8267;
-}
-
-#imagen2{
-    display: grid;
-    grid-column: 1;
-    grid-row: 2;
-   
-    
-}
-
-#textoimg2{
-    display: grid;
-    text-align: center;
-    grid-row: 1;
-    background-color: #6a8267;
-    
-}
-
-#imagen3{
-    display: grid;
-    grid-column: 1;
-    grid-row: 3;
-    
-    
-}
-
-#textoimg3{
-    display: grid;
-    grid-row: 1;
-    background-color: #6a8267;
-    text-align: center;
-    justify-items: stretch;
-}
-
 
 .tituloproyectos {
     background-color: #6a8267;
@@ -142,12 +77,76 @@ body {
     font-weight: lighter;
 }
 
-#tablahorarios{
+#contenedorproyectosterminados {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(200px, auto);
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 50px;
+    align-items: stretch;
+    justify-items: center;
+
+
+}
+
+section {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+}
+
+section img {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5 ease;
+}
+
+section img:hover {
+    width: 500px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+#textoimg {
+    display: grid;
+    grid-template-rows: 1fr, auto;
+    text-align: justify;
+    background-color: #6a8267;
+}
+
+.titulodelproyecto {
+    display: grid;
+    grid-column: 1/3;
+    text-align: center;
+    text-decoration: underline wavy;
+    font-size: larger;
+}
+
+.antestexto {
+    display: grid;
+    grid-row: 2;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.despuestexto {
+    display: grid;
+    grid-row: 2;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+#tablahorarios {
     background-color: #6a8267;
     display: grid;
     justify-content: center;
     border: solid #e7e0c4;
-    
+
 }
 
 footer {
@@ -164,7 +163,7 @@ footer {
     display: grid;
     grid-column: 1;
     grid-row: 2;
-    
+
 }
 
 #instagram {
@@ -182,10 +181,10 @@ footer {
     grid-row: 2;
     width: 5px;
     margin-top: 10px;
-    
+
 }
-.igwapp{
+
+.igwapp {
     color: #e7e0c4;
     text-decoration: none;
 }
-
