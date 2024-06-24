@@ -27,22 +27,34 @@ path{
     fill: #6a8267;
     stroke: #e7e0c4;
     stroke-width: 1;
-    animation: animacion 5s infinite;
+    
     
 }
-path:hover{
-    fill: #455443;
-    stroke: #c4bea4;
+#larioja:hover{
+    fill: #c4bea4;
     stroke-width: 2;
     
 
 }
-
-@keyframes animacion {
-    50%{
-        transform: scale(222px);
-    }
-    
+#sanluis:hover{
+    fill: #c4bea4;
+    stroke-width: 2;
+}
+#rionegro:hover{
+    fill: #c4bea4;
+    stroke-width: 2;
+}
+#cordoba:hover{
+    fill: #c4bea4;
+    stroke-width: 2;
+}
+#buenosaires:hover{
+    fill: #c4bea4;
+    stroke-width: 2;
+}
+#caba:hover{
+    fill: #c4bea4;
+    stroke-width: 2;
 }
 
 footer{
