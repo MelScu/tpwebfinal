@@ -8,21 +8,6 @@ body {
     margin: 0%;
 }
 
-
-main{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: minmax(100px, auto);
-    bottom: 10px;
-    gap: 10px 10px;
-    bottom: 100px;
-    padding: 10px;
-    align-items: stretch;
-    margin-bottom: 30px;
-    background-color: #6a8267;
-
-}
-
 #titulofotosvivero{
     display: grid;
     grid-row: 1;
@@ -31,6 +16,82 @@ main{
     margin: 30px 0;
     
 }
+
+main{ 
+    display: grid;
+    justify-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.carrousel{
+    width: 85%;
+    max-width: 60em;
+    background-color: #6a8267;
+    padding: 2em;
+    border-radius: 2em;
+    overflow: hidden;
+    border-style: outset;
+
+
+}
+
+.carrousel .grande{
+    width: 600%;
+    background-color: black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+    border-radius: 2em;
+    transition: all .5s ease;
+    transform: translateX(-30);
+    border-style: ridge;
+    
+
+
+}
+
+.carrousel .img{
+    width: calc( 100% / 6 -2em);
+    min-height: 2vh;
+    background-color: black;
+    padding: 5em;
+    border-radius: 2em;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.carrousel .puntos{
+    width: 100%;
+    background-color: black;
+    border-radius: 2em;
+    padding: .3em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0 0;
+    border-style: ridge;
+}
+
+.carrousel .punto{
+    width: 2em;
+    height: 2em;
+    background-color: #e7e0c4;
+    list-style: none;
+    margin: 1em;
+    border-radius: 2em;
+    border-style: solid;
+
+}
+
+.carrousel .punto.activo{
+    background-color: #6a8267;
+}
+
 
 #visitamapa{
     background-color: #6a8267;
